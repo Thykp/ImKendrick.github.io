@@ -306,14 +306,36 @@ section {
 .experience_sub_title {
     color: rgb(85, 85, 85);
     font-weight: 600;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     margin-bottom: 2rem;
+    flex-direction: row;
 }
 
-.experience_details_container {
-    display: flex;
+.experience_containers {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.experience_detail_container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.experience_icon {
+    height: 12rem;
 }
 
 .article_container {
@@ -334,6 +356,23 @@ article {
 
 article .icon {
     cursor: default;
+}
+
+#skills {
+    position: relative;
+}
+
+.skills_sub_title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.skills_details_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #projects {
